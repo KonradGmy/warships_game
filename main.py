@@ -12,7 +12,6 @@ clock = pygame.time.Clock()
 Controller.game_speed = 1
 Controller.supposed_game_speed = Controller.game_speed
 
-
 # Fleet
 bismarck = pickle.load(open("Assets/ShipsData/bismarck", 'rb'))
 hipper = pickle.load(open("Assets/ShipsData/hipper", 'rb'))
